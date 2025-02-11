@@ -45,7 +45,7 @@ docker-compose up --build
 
 - Backend: La API estará disponible en http://localhost:3001.
 
-##Estructura del Proyecto
+## Estructura del Proyecto
 - **backend/**: Contiene el código del backend (Node.js + Express + Sequelize).
 
 - **frontend/**: Contiene el código del frontend (React).
@@ -57,17 +57,12 @@ docker-compose up --build
  ## Mejores Prácticas
 - **Backend**:
 - Uso de Sequelize: Se utilizó Sequelize como ORM para evitar SQL Injection y facilitar la interacción con la base de datos.
-
-- Async/Await: Todas las operaciones asincrónicas se manejaron con async/await para mejorar la legibilidad del código.
-
-- Pruebas Unitarias y de Integración: Se implementaron pruebas unitarias y de integración utilizando Jest y Supertest.
+- Async/Await: Todas las operaciones asincrónicas se manejaron con async/await para mejorar la legibilidad del código..
 
  - **Frontend**:
-- Context API: Se utilizó Context API para el manejo del estado global, evitando el prop drilling y mejorando la escalabilidad.
-
-- Lazy Loading: Se aplicó Lazy Loading para optimizar la carga de componentes y mejorar el rendimiento.
-
-- Componentes Funcionales y Hooks: Se desarrollaron componentes funcionales utilizando hooks como useState, useEffect y useContext.
+- Context API: Se utilizó Context API para el manejo del estado global, evitando el prop drilling y mejorando la escalabilidad.  
+- Lazy Loading: Se aplicó Lazy Loading para optimizar la carga de componentes y mejorar el rendimiento.  
+- Componentes Funcionales y Hooks: Se desarrollaron componentes funcionales utilizando hooks como useState, useEffect y useContext.  
 
 - **Seguridad**:
 - JWT: Se implementó autenticación JWT con roles diferenciados (admin, usuario) para controlar el acceso a la aplicación.
@@ -93,4 +88,4 @@ docker-compose up --build
 **Pruebas**
 - Backend: Pruebas unitarias y de integración con Jest y Supertest.
 
-Frontend: Pruebas básicas con React Testing Library(Bug).
+ - Frontend: Pruebas básicas con React Testing Library(Bug).

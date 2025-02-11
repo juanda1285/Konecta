@@ -52,7 +52,7 @@ docker-compose up --build
 
 - **docker-compose.yml**: Configuración de Docker Compose para levantar los servicios.
 
-- **script.sql**: Script SQL para crear la estructura de la base de datos (opcional, si no usas migraciones).
+- **estructura.sql**: Script SQL para crear la estructura de la base de datos (opcional, si no usas migraciones).
 
  ## Mejores Prácticas
 - **Backend**:

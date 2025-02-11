@@ -29,7 +29,8 @@ git clone https://github.com/juanda1285/Konecta.git
 cd Konecta 
 ```  
 2. Configurar el Entorno  
- -  Actualizar el archivo .env del backend con los datos necesarios(Opcional)
+ -  Actualizar el archivo .env del backend en caso de ser necesario(Opcional)
+ -  Crear la base de datos en postgres , el schema es **estructura.sql**
 
 3. Ejecutar Docker Compose
  - Construir y levantar los contenedores:

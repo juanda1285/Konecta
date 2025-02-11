@@ -85,7 +85,7 @@ Estructura del Proyecto
 
 - CORS: Se configuró CORS para permitir solicitudes solo desde el frontend.
 
-**Protección contra Ataques Comunes
+**Protección contra Ataques Comunes**
 - SQL Injection: Se evitó mediante el uso de consultas parametrizadas con Sequelize.
 
 - XSS: Se sanitizaron las entradas del usuario y se escaparon los datos antes de renderizarlos.

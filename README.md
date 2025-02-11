@@ -45,7 +45,7 @@ docker-compose up --build
 
 - Backend: La API estará disponible en http://localhost:3001.
 
-Estructura del Proyecto
+##Estructura del Proyecto
 - **backend/**: Contiene el código del backend (Node.js + Express + Sequelize).
 
 - **frontend/**: Contiene el código del frontend (React).

@@ -80,12 +80,7 @@ docker-compose up --build
 
 - CORS: Se configuró CORS para permitir solicitudes solo desde el frontend.
 
-**Protección contra Ataques Comunes**
-- SQL Injection: Se evitó mediante el uso de consultas parametrizadas con Sequelize.
-
-- XSS: Se sanitizaron las entradas del usuario y se escaparon los datos antes de renderizarlos.
-
 **Pruebas**
-- Backend: Pruebas unitarias y de integración con Jest y Supertest.
+- Backend: Pruebas unitarias con Jest.
 
  - Frontend: Pruebas básicas con React Testing Library(Bug).
